@@ -4,7 +4,7 @@ if(response=="y")
     {
         alert("That's nice. Have a nice day!");
     } 
-  else if(response=="y")
+  else if(response=="n")
     {
         alert("That's not nice. I hope you feel better.");
     } 
