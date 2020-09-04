@@ -1,4 +1,4 @@
-function a(){
+function myFunction(){
 var para = document.createElement("p");
 var node = document.createTextNode("Hah lol gotem");
 para.appendChild(node);
