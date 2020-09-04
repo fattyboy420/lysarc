@@ -10,6 +10,6 @@ if(response=="y")
     } 
   else
   {
-      alert("You have inputted something not y or n. Try again, dude");
+      alert("You have inputted something not y or n. Try again");
   } 
 }
