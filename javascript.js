@@ -1,3 +1,3 @@
 function myFunction(){
-document.write("Hah lol gotem");
+alert("Hello\nHow are you?");
 }
