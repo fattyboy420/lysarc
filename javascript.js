@@ -1,12 +1,30 @@
 
+var dropdownOpened=-1;
 
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
 function Function(number) {
-  if(number== 1 )
+  if(dropdownOpened==0)
+  {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+    else if(dropdownOpened==1)
+  {
+    document.getElementById("myDropdown2").classList.toggle("show");
+  }
+  else
+  {
+    break;
+  }
+  if(number== 1 ){
   document.getElementById("myDropdown").classList.toggle("show");
-else
+    dropdownOpened=0;
+  }
+else{
   document.getElementById("myDropdown2").classList.toggle("show");
+dropdownOpened=1;
+}
+
 }
 
 // Close the dropdown if the user clicks outside of it
