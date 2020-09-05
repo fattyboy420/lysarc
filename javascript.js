@@ -2,7 +2,7 @@
 
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
-function Function(var number) {
+function Function(number) {
   if(number==1)
   document.getElementById("myDropdown").classList.toggle("show");
 else
