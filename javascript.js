@@ -14,15 +14,15 @@ function Function(number) {
   }
   else
   {
-    break;
+    continue;
   }
   if(number== 1 ){
   document.getElementById("myDropdown").classList.toggle("show");
-    dropdownOpened=0;
+    dropdownOpened=1;
   }
 else{
   document.getElementById("myDropdown2").classList.toggle("show");
-dropdownOpened=1;
+dropdownOpened=0;
 }
 
 }
