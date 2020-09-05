@@ -8,14 +8,11 @@ function Function(number) {
   {
     document.getElementById("myDropdown").classList.toggle("show");
   }
-    else if(dropdownOpened==1)
+if(dropdownOpened==1)
   {
     document.getElementById("myDropdown2").classList.toggle("show");
   }
-  else
-  {
-    continue;
-  }
+
   if(number== 1 ){
   document.getElementById("myDropdown").classList.toggle("show");
     dropdownOpened=0;
