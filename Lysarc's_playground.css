@@ -94,7 +94,7 @@ align: center;
 .show {display: block;}
 HTML CSSResult
 body {
-  background: #0f1923;
+  background-color: #0f1923;
   font-family: "Muli";
 }
 
