@@ -36,4 +36,5 @@ window.onclick = function(event) {
       }
     }
   }
+dropdownOpened=-1;
 }
