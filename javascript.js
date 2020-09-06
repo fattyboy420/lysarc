@@ -6,11 +6,11 @@ toggle between hiding and showing the dropdown content */
 function Function(number) {
   if(dropdownOpened==0)
   {
-    document.getElementById("myDropdown").classList.toggle("show");
+    document.getElementById("myDropdown").classList.remove("show");
   }
 if(dropdownOpened==1)
   {
-    document.getElementById("myDropdown2").classList.toggle("show");
+    document.getElementById("myDropdown2").classList.remove("show");
   }
 
   if(number== 1 ){
@@ -32,11 +32,11 @@ window.onclick = function(event) {
     for (i = 0; i < dropdowns.length; i++) {
       var openDropdown = dropdowns[i];
       if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.toggle('show');
+        openDropdown.classList.remove('show');
 
       }
     }
-        dropdownOpened=-1;
+ 
   }
 
 }
