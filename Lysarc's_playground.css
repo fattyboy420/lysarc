@@ -17,19 +17,20 @@ color: brown;
 
 }
 #title{
-
+ background-color: #0f1923;
   
 }
 
 #menu_list{
-
+ background-color: #0f1923;
 }
 #artwork{
   rowspan: 2;
+ background-color: #0f1923;
 }
 #credits_table{
 align: center;
-
+ background-color: #0f1923;
 }
 .artworks{
   max-width: 250px;
