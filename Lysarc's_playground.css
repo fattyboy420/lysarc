@@ -37,6 +37,12 @@ width: 100%;
 align: center;
 
 }
+.artworks{
+  max-width: 250px;
+  min-width: 250px;
+  max-length: 250px;
+  min-length: 250px;
+}
 .credits{
 
 max-width: 250px;
