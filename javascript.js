@@ -35,7 +35,7 @@ window.onclick = function(event) {
         openDropdown.classList.remove('show');
       }
     }
-dropdownOpened=-1;
+
   }
 
 }
