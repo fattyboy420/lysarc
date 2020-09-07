@@ -4,7 +4,7 @@
   margin-left: auto;
   margin-right: auto;
   align: center;
-  width:90%;
+  width:10%;
   height: 90;
 border: 0;
 }
@@ -20,7 +20,11 @@ border: 0;
 #artwork{
   rowspan: 2;
  background-color: #0f1923;
-  width:60%;
+  width:70%;
+}
+#artworkimage{
+  margin-left: auto;
+  margin-right: auto;
 }
 #credits_table{
 align: center;
