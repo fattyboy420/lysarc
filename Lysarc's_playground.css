@@ -6,6 +6,7 @@
   align: center;
   width:90%;
   height: 90;
+border: 0;
 }
 #title{
  background-color: #0f1923;
@@ -24,6 +25,7 @@
 #credits_table{
 align: center;
  background-color: #0f1923;
+border: 0;
 }
 .artworks{
   max-width: 250px;
@@ -39,8 +41,12 @@ align: center;
 
 }
 #artworkTable{
-
-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  align: center;
+  width:90%;
+  height: 90;
+border: 0;
 }
 .dropbtn {
   background-color: #3498DB;
