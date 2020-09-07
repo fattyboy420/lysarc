@@ -24,10 +24,12 @@ color: brown;
 
 #menu_list{
  background-color: #0f1923;
+  width:30%;
 }
 #artwork{
   rowspan: 2;
  background-color: #0f1923;
+  width:70%;
 }
 #credits_table{
 align: center;
